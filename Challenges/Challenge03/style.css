@@ -1,0 +1,122 @@
+:root {
+  --main-bg-color: #4143b1;
+  --second-bg-color: #221727;
+  --second-bg-color-t: rgba(34, 23, 39, 0.8);
+  --highlight-color: #5ef4d6;
+  --highlight2-color: #24e5a3;
+  --w-color: #f1fff6;
+  --main-font: 'Viga', sans-serif;
+  --second-font: 'Rubik', sans-serif;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background-color: var(--main-bg-color);
+  
+}
+
+
+.title{
+  color: var(--highlight-color)
+}
+
+.team{
+  color: var(--highlight-color);
+  font-family: var(--second-font);
+}
+.wrapper{
+  margin-top:50px;
+  
+}
+
+.wrapper h1{
+  font-family: var(--second-font);
+  font-size: 52px;
+  margin-bottom:70px;
+  text-align: center;
+}
+
+.container{
+  display:flex;
+  text-align: center;
+  width:auto;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.container .cards{
+  background-color: var(--second-bg-color);
+  margin:15px;
+  margin-top: 100px;
+  margin-bottom:30px;
+  height:450px ;
+  width:350px;
+  padding: 20px;
+  line-height:30px;
+  border-radius: 10px;
+  border:solid 2px var(--highlight-color);
+  position: relative;
+ 
+}
+
+.container .cards h2{
+color: var(--highlight2-color);
+font-size:50px;
+margin-top:70px;
+margin-bottom: 10px;
+
+}
+
+.container .cards p{
+font-size: 12px;
+margin:32px 0;
+color: var(--w-color);
+}
+
+.container .cards .img_container{
+/* width:200px;
+height:200px; */
+border-radius: 50%;
+position: absolute;
+top: -140px;
+left:50%;
+transform:translateX(-50%)
+
+}
+
+.container .cards .img_container img {
+  width: 200px;
+  height: 200px;
+  background-color: var(--w-color);
+  border: solid 2px var(--highlight-color);
+  border-radius: 690px;
+
+}
+
+.container .cards .img_container2{
+width:100px;
+height:100px;
+display: flex;
+justify-content: center;
+border-radius: 50%;
+position: absolute;
+top: 350px;
+left:50%;
+transform:translateX(-50%)
+
+}
+
+.container .cards .img_container2 img {
+  width: 60px;
+  height: 50px;
+  background-color:var(--highlight-color);
+  margin: 10px;
+  border: solid 2px var(--highlight-color);
+  border-radius: 80px;
+
+}
