@@ -50,17 +50,18 @@ body{
 }
 
 .container .cards{
-  background-color: var(--second-bg-color);
-  margin:15px;
-  margin-top: 100px;
-  margin-bottom:30px;
-  height:450px ;
-  width:350px;
-  padding: 20px;
-  line-height:30px;
-  border-radius: 10px;
-  border:solid 2px var(--highlight-color);
   position: relative;
+   height: 450px ;
+   width: 350px;
+   margin: 15px;
+   padding: 20px;
+   margin-top:100px;
+   margin-bottom:30px;
+  line-height: 30px;
+  background-color: var(--second-bg-color);
+  border-radius:10px;
+  border:solid 2px var(--highlight-color);
+ 
  
 }
 
